@@ -18,17 +18,14 @@ const Home: NextPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
               <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-                What's in Next.js? Everything you need to build great products
-                on the web.
+                A Junior Developer's Learning Path
               </h1>
               <p className="text-lg font-semibold text-zinc-400">
                 <span className="text-black dark:text-white">
-                  Next.js Boilerplate
+                  Coding Challenges
                 </span>{" "}
-                Vercel is a frontend cloud from the creators of Next.js, making
-                it easy to get started with Next.js quickly. Jumpstart your
-                Next.js development with pre-built solutions from Vercel and our
-                community.
+                "Every page load, every bug fix brings new learning moments—it's
+                what makes coding so fascinating!"
               </p>
             </div>
             <div>
@@ -50,17 +47,14 @@ const Home: NextPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
               <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-                What's in Next.js? Everything you need to build great products
-                on the web.
+                Embracing Growth in Coding
               </h1>
               <p className="text-lg font-semibold text-zinc-400">
                 <span className="text-black dark:text-white">
-                  Next.js Boilerplate
+                  Creative Problem Solving
                 </span>{" "}
-                Vercel is a frontend cloud from the creators of Next.js, making
-                it easy to get started with Next.js quickly. Jumpstart your
-                Next.js development with pre-built solutions from Vercel and our
-                community.
+                "Embracing each new problem with fresh solutions is exhilarating
+                for a Junior Dev like me!"
               </p>
             </div>
             <div>
@@ -83,17 +77,14 @@ const Home: NextPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
               <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-                What's in Next.js? Everything you need to build great products
-                on the web.
+                Insights from My Coding Journey
               </h1>
               <p className="text-lg font-semibold text-zinc-400">
                 <span className="text-black dark:text-white">
-                  Next.js Boilerplate
+                  Supportive Community
                 </span>{" "}
-                Vercel is a frontend cloud from the creators of Next.js, making
-                it easy to get started with Next.js quickly. Jumpstart your
-                Next.js development with pre-built solutions from Vercel and our
-                community.
+                "The joy of connecting with an amazing developer community to
+                tackle challenges together is incredibly impactful in coding."
               </p>
             </div>
             <div>
@@ -115,17 +106,14 @@ const Home: NextPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
               <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-                What's in Next.js? Everything you need to build great products
-                on the web.
+                Why I Love the Challenge of Coding
               </h1>
               <p className="text-lg font-semibold text-zinc-400">
                 <span className="text-black dark:text-white">
-                  Next.js Boilerplate
+                  Learning Every Day
                 </span>{" "}
-                Vercel is a frontend cloud from the creators of Next.js, making
-                it easy to get started with Next.js quickly. Jumpstart your
-                Next.js development with pre-built solutions from Vercel and our
-                community.
+                "With coding, there's always something new to learn, making it
+                far from monotonous!"
               </p>
             </div>
             <div>
@@ -141,13 +129,14 @@ const Home: NextPage = () => {
           </div>
         </div>
       </Section>
+
       <Section theme="light" setTheme={setTheme}>
         <div className="flex flex-col items-center">
           {/* Text container */}
           <div className="w-full text-center mb-6">
             <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-              What's in Next.js? Everything you need to build great products on
-              the web.
+              As a Junior Dev, I’m excited to share the joy of learning
+              opportunities with everyone!
             </h1>
           </div>
 
