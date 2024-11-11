@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const Home: NextPage = () => {
   const [theme, setTheme] = useState("light");
+  console.log("theme", theme);
   return (
     <div className={`${theme}`}>
       <Head>
