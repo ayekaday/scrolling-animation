@@ -135,7 +135,7 @@ const Home: NextPage = () => {
           {/* Text container */}
           <div className="w-full text-center mb-6">
             <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-              As a Junior Dev, I’m excited to share the joy of learning
+              As a Junior Developer, I’m excited to share the joy of learning
               opportunities with everyone!
             </h1>
           </div>
