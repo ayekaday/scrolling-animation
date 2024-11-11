@@ -6,14 +6,14 @@ const Section: React.FC<{
   setTheme: (value: string) => void;
   children: ReactNode;
 }> = ({ theme, setTheme, children }) => {
-  let container = useRef(null);
+  const container = useRef(null);
 
-  let { scrollYProgress } = useScroll({
+  const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start center", "end center"],
   });
 
-  useMotionValueEvent(scrollYProgress, "change", (value) => {
+  useMotionValueEvent(scrollYProgress, "change", (value: number) => {
     if (value > 0 && value < 1) {
       setTheme(theme);
     }
