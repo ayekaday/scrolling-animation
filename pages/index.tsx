@@ -2,11 +2,16 @@ import Section from "@/Components/Section";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Home: NextPage = () => {
   const [theme, setTheme] = useState("light");
-  console.log("theme", theme);
+  
+  useEffect(() => {
+    document.documentElement.className = theme
+  
+  }, [theme])
+  
   return (
     <div className={`${theme}`}>
       <Head>
