@@ -7,25 +7,28 @@ import { useState } from "react";
 const Home: NextPage = () => {
   const [theme, setTheme] = useState("light");
   return (
-    <div className={`${theme}`}>
+    <div
+      className={`${
+        theme === "light" ? "light-theme-class" : "dark-theme-class"
+      }`}
+    >
       <Head>
         <title>Scrolling White and Dark Mode Transitions</title>
-        <link ref="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Section theme="light" setTheme={setTheme}>
-        {" "}
         <div className="flex-1 flex flex-col justify-center lg:max-w-6xl lg:mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
               <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-                A Junior Developer's Learning Path
+                A Junior Developer&apos;s Learning Path
               </h1>
               <p className="text-lg font-semibold text-zinc-400">
                 <span className="text-black dark:text-white">
                   Coding Challenges
                 </span>{" "}
-                "Every page load, every bug fix brings new learning moments—it's
-                what makes coding so fascinating!"
+                &quot;Every page load, every bug fix brings new learning
+                moments—it&apos;s what makes coding so fascinating!&quot;
               </p>
             </div>
             <div>
@@ -53,8 +56,8 @@ const Home: NextPage = () => {
                 <span className="text-black dark:text-white">
                   Creative Problem Solving
                 </span>{" "}
-                "Embracing each new problem with fresh solutions is exhilarating
-                for a Junior Dev like me!"
+                &quot;Embracing each new problem with fresh solutions is
+                exhilarating for a Junior Dev like me!&quot;
               </p>
             </div>
             <div>
@@ -72,7 +75,6 @@ const Home: NextPage = () => {
       </Section>
 
       <Section theme="light" setTheme={setTheme}>
-        {" "}
         <div className="flex-1 flex flex-col justify-center lg:max-w-6xl lg:mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8">
             <div className="flex flex-col gap-8 justify-center">
@@ -83,8 +85,9 @@ const Home: NextPage = () => {
                 <span className="text-black dark:text-white">
                   Supportive Community
                 </span>{" "}
-                "The joy of connecting with an amazing developer community to
-                tackle challenges together is incredibly impactful in coding."
+                &quot;The joy of connecting with an amazing developer community
+                to tackle challenges together is incredibly impactful in
+                coding.&quot;
               </p>
             </div>
             <div>
@@ -112,8 +115,8 @@ const Home: NextPage = () => {
                 <span className="text-black dark:text-white">
                   Learning Every Day
                 </span>{" "}
-                "With coding, there's always something new to learn, making it
-                far from monotonous!"
+                &quot;With coding, there&apos;s always something new to learn,
+                making it far from monotonous!&quot;
               </p>
             </div>
             <div>

@@ -6,9 +6,9 @@ const Section: React.FC<{
   setTheme: (value: string) => void;
   children: ReactNode;
 }> = ({ theme, setTheme, children }) => {
-  let container = useRef(null);
+  const container = useRef<HTMLElement>(null); // Explicit type for container
 
-  let { scrollYProgress } = useScroll({
+  const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start center", "end center"],
   });
@@ -28,4 +28,5 @@ const Section: React.FC<{
     </section>
   );
 };
+
 export default Section;
