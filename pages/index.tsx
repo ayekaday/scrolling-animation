@@ -2,10 +2,15 @@ import Section from "@/Components/Section";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Home: NextPage = () => {
   const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
   return (
     <div
       className={`${
@@ -138,8 +143,8 @@ const Home: NextPage = () => {
           {/* Text container */}
           <div className="w-full text-center mb-6">
             <h1 className="text-5xl xl:text-7xl font-bold text-black dark:text-white">
-              As a Junior Developer, I’m excited to share the joy of learning
-              opportunities with everyone!
+              As a Junior Developer, I{"'"}m excited to share the joy of
+              learning opportunities with everyone!
             </h1>
           </div>
 
